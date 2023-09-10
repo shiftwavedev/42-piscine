@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dekulow <dekulow@42.fr>                      +#+  +:+       +#+        */
+/*   By: dekulow <dekulow@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/11 09:39:49 by dekulow            #+#    #+#             */
-/*   Updated: 2023/08/16 09:19:26 by dekulow           ###   ########.fr       */
+/*   Created: 2023/09/10 14:27:15 by dekulow           #+#    #+#             */
+/*   Updated: 2023/09/10 14:27:16 by dekulow          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,18 +52,18 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 
 int	main(void)
 {
-    char dest[] = "Let's go ";
-    char content[] = "42 (alias 1337) !!!";
-    int result;
-    int size = 33;
+	char dest[] = "Let's go ";
+	char content[] = "42 (alias 1337) !!!";
+	int result;
+	int size = 33;
 
-    result = ft_strlcat(dest,content,size);
+	result = ft_strlcat(dest,content,size);
 
 	printf("Value returned (string): %s\n", dest);
-    printf("Value returned (nb): %d\n",result);
-    if( result > size )
-        printf("Truncated !");
-    else
-        printf("Fully copied !");
-    return(0);
+	printf("Value returned (nb): %d\n",result);
+	if( result > size )
+		printf("Truncated !");
+	else
+		printf("Fully copied !");
+	return(0);
 } */

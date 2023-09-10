@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_uppercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dekulow <dekulow@42.fr>                      +#+  +:+       +#+        */
+/*   By: dekulow <dekulow@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/07 12:36:18 by dekulow            #+#    #+#             */
-/*   Updated: 2023/08/13 16:46:19 by dekulow           ###   ########.fr       */
+/*   Created: 2023/09/10 14:22:10 by dekulow           #+#    #+#             */
+/*   Updated: 2023/09/10 14:22:11 by dekulow          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,9 @@ int	ft_str_is_uppercase(char *str)
 
 int	main(void)
 {
-	int result = ft_str_is_uppercase("fd");
+	int	result;
+
+	result = ft_str_is_uppercase("fd");
 	printf("res: %d", result);
 	return (0);
 }

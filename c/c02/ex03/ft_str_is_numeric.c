@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_numeric.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dekulow <dekulow@42.fr>                      +#+  +:+       +#+        */
+/*   By: dekulow <dekulow@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/07 10:35:39 by dekulow            #+#    #+#             */
-/*   Updated: 2023/08/10 16:45:02 by dekulow           ###   ########.fr       */
+/*   Created: 2023/09/10 14:22:01 by dekulow           #+#    #+#             */
+/*   Updated: 2023/09/10 14:22:02 by dekulow          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,9 @@ int	ft_str_is_numeric(char *str)
 
 int	main(void)
 {
-	int result = ft_str_is_numeric("");
+	int	result;
+
+	result = ft_str_is_numeric("");
 	printf("res: %d", result);
 	return (0);
 }

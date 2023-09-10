@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dekulow <dekulow@42.fr>                      +#+  +:+       +#+        */
+/*   By: dekulow <dekulow@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/10 08:20:36 by dekulow            #+#    #+#             */
-/*   Updated: 2023/08/15 10:50:15 by dekulow           ###   ########.fr       */
+/*   Created: 2023/09/10 14:26:25 by dekulow           #+#    #+#             */
+/*   Updated: 2023/09/10 14:26:26 by dekulow          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,10 +52,11 @@ int	ft_strcmp(char *s1, char *s2)
 
 int	main(void)
 {
+	int	result;
+
 	char s1[5] = "Hello";
 	char s2[5] = "HlO";
-
-	int result = ft_strcmp(s1, s2);
+	result = ft_strcmp(s1, s2);
 	if (result < 0)
 		printf("s1 is less than s2\n");
 	else if (result > 0)

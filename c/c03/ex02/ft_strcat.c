@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dekulow <dekulow@42.fr>                      +#+  +:+       +#+        */
+/*   By: dekulow <dekulow@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/10 08:42:09 by dekulow            #+#    #+#             */
-/*   Updated: 2023/08/10 09:06:52 by dekulow           ###   ########.fr       */
+/*   Created: 2023/09/10 14:26:35 by dekulow           #+#    #+#             */
+/*   Updated: 2023/09/10 14:26:36 by dekulow          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,6 @@ int	main(void)
 {
 	char	dest[50] = "Hello ";
 	char 	src[] = "world !";
-
 	ft_strcat(dest, src);
 	printf("res: %s", dest);
 	return (0);

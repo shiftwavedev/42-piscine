@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_printable.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dekulow <dekulow@42.fr>                      +#+  +:+       +#+        */
+/*   By: dekulow <dekulow@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/07 16:14:41 by dekulow            #+#    #+#             */
-/*   Updated: 2023/08/12 10:38:30 by dekulow           ###   ########.fr       */
+/*   Created: 2023/09/10 14:22:15 by dekulow           #+#    #+#             */
+/*   Updated: 2023/09/10 14:22:15 by dekulow          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,9 @@ int	ft_str_is_printable(char *str)
 
 int	main(void)
 {
-	int result = ft_str_is_printable(" flknjkfjklf`~");
+	int	result;
+
+	result = ft_str_is_printable(" flknjkfjklf`~");
 	printf("res: %d", result);
 	return (0);
 }

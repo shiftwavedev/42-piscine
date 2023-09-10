@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dekulow <dekulow@42.fr>                      +#+  +:+       +#+        */
+/*   By: dekulow <dekulow@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/08/07 11:09:51 by dekulow            #+#    #+#             */
-/*   Updated: 2023/08/10 16:42:47 by dekulow           ###   ########.fr       */
+/*   Created: 2023/09/10 14:22:05 by dekulow           #+#    #+#             */
+/*   Updated: 2023/09/10 14:22:06 by dekulow          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,9 @@ int	ft_str_is_lowercase(char *str)
 
 int	main(void)
 {
-	int result = ft_str_is_lowercase("");
+	int	result;
+
+	result = ft_str_is_lowercase("");
 	printf("res: %d", result);
 	return (0);
 }
