@@ -30,9 +30,5 @@ The Piscine is a 4-week selection phase of intense commitment and learning. Duri
 | [`exam02`](./exam/) | 20% |
 | [`exam03`](./exam/) | 60% |
 
-## License(s)
-For code: [MIT](./LICENSE)
-
-For subjects:
-> **All these subjects are the exclusive property of 42 School.**
-Any reproduction, use outside the school context of 42 or without authorization is prohibited and may be treated as copyright infringement.
+## License
+[MIT](./LICENSE)

@@ -2,8 +2,6 @@
 
 ![My progress C04, 70/100, SUCCESS](score_screen.png)
 
-**Subjects :** [PDF](./en.subject.pdf)
-
 **Table of contents :**
 
 | **N°** | **Exercises** | **A few words** |
